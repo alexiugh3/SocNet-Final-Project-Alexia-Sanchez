@@ -1,7 +1,7 @@
 from collections import defaultdict
 import tmdbsimple as tmdb # https://github.com/celiao/tmdbsimple/blob/master/tmdbsimple/movies.py
 import csv
-tmdb.API_KEY = 'b5ae0290f95d8ba53bdb651596b3d7b5'
+tmdb.API_KEY = "YOUR_API_KEY"
 
 # for node labels
 country_dict = {"FR": "France", "US": "United States", "MX": "Mexico", "IT": "Italy", 
